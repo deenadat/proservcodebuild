@@ -4,7 +4,7 @@ var moment = require('moment');
 exports.handler = (event, context, callback) => {
 
     var originURL = process.env.ORIGIN_URL || '*';
-
+//
     emitLambdaAge();
 
     // This variable can be updated and checked in to your repository 
